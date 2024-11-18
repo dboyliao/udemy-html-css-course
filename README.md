@@ -72,6 +72,20 @@ Use starter code to start each section, and **final code to compare it with your
     - the margin will be the size of the larger margin
     - this is a feature of CSS
     - it does not happen with padding or border
+- There are two kind of elements in the box model: block and inline
+  - block elements: elements that always start on a new line and take up the full width available
+    - ex: div, h1, p, form, etc
+    - by default, block elements have a width of 100%
+  - inline elements: elements that do not start on a new line and only take up as much width as necessary
+    - ex: span, a, img, etc
+    - width and height properties have no effect on inline elements
+    - padding, margin, and border properties can be applied to inline elements (only horizontally)
+    - `display: block;` can make an inline element be rendered as a block element
+  - `display: inline-block;`: looks like inline from outside, behave like block element on the inside
+    - it won't create line breaks
+    - it takes up only as much width as necessary for the content
+    - all box model properties can be applied to inline-block elements
+    - an `<img>` element is by default an inline-block element
 
 # Useful Links
 - https://jonas.io/resources/

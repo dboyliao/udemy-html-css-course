@@ -10,6 +10,16 @@ body {
   color: #444444;
 }
 
+nav a:link {
+  margin-right: 30px;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+nav a:link:last-child {
+  margin-right: 0;
+}
+
 .container {
   width: 700px;
   border-top: 10px solid #1098ad;
@@ -157,3 +167,18 @@ a:active {
   font-style: italic;
 }
 /* LVHA */
+
+.like-button-container {
+  position: relative;
+  /* height: 100px; */
+  background-color: red;
+}
+.like-button {
+  font-size: 22px;
+  padding: 20px;
+  cursor: pointer;
+
+  position: absolute;
+  bottom: 50px;
+  right: 50px;
+}
