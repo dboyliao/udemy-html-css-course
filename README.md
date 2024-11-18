@@ -63,3 +63,7 @@ Use starter code to start each section, and **final code to compare it with your
 
 # Useful Links
 - https://jonas.io/resources/
+- W3C page for pseudo classes: https://www.w3schools.com/css/css_pseudo_classes.asp
+    - the n-th child pseudo class: it selects the elements that are the n-th child of their parent and that match a certain type of selector
+      - ex: 'artical p:first-child' does not select the first p element in the article element, but the p element that is the first child of a article element
+    - it's perfect to apply to the child elements that are of the same type
