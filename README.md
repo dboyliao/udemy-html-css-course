@@ -60,6 +60,18 @@ Use starter code to start each section, and **final code to compare it with your
 
 **A:** No, for the simple reason that I want this repository to contain the _exact_ same code that is shown in the videos. However, please feel free to add an issue if you found one.
 
+# Notes
+
+## Box Model
+- content: the content of the html element, text, images, etc
+- padding: transparent area around the content, inside the border
+- border: goes around the padding and the content
+- margin: transparent area around the border, outside the border
+  - we normally use margin to **create space between elements**
+  - collapsing margin: when two margins touch each other, they collapse into one margin
+    - the margin will be the size of the larger margin
+    - this is a feature of CSS
+    - it does not happen with padding or border
 
 # Useful Links
 - https://jonas.io/resources/
@@ -67,3 +79,4 @@ Use starter code to start each section, and **final code to compare it with your
     - the n-th child pseudo class: it selects the elements that are the n-th child of their parent and that match a certain type of selector
       - ex: 'artical p:first-child' does not select the first p element in the article element, but the p element that is the first child of a article element
     - it's perfect to apply to the child elements that are of the same type
+- https://www.youtube.com/watch?v=uFXweZepi1o&list=PLqivELodHt3iF_Spzdz_6LsOSPOyfDx-R
