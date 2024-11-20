@@ -28,11 +28,28 @@ h3 {
 .container {
   width: 800px;
   margin: 0 auto;
+  padding-top: 20px;
 }
 
 .product {
   border: 4px black solid;
   width: 100%;
+}
+
+.product-title-container {
+  position: relative;
+}
+
+.product-title-container::after {
+  content: "sale";
+  text-transform: uppercase;
+  background-color: red;
+  color: white;
+  padding: 5px 15px;
+  position: absolute;
+  top: -15px;
+  left: -15px;
+  letter-spacing: 2px;
 }
 
 .product-title {
@@ -64,6 +81,39 @@ h3 {
 
 .more-info:hover {
   text-decoration: none;
+}
+
+.variant-list {
+  list-style: none;
+}
+
+.variant-list li {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin: 30px 5px;
+}
+
+.variant-list li:first-child {
+  background-color: black;
+  margin-left: 2px;
+}
+
+.variant-list li:nth-child(2) {
+  background-color: blue;
+}
+
+.variant-list li:nth-child(3) {
+  background-color: red;
+}
+.variant-list li:nth-child(4) {
+  background-color: yellow;
+}
+.variant-list li:nth-child(5) {
+  background-color: green;
+}
+.variant-list li:nth-child(6) {
+  background-color: brown;
 }
 
 .product-details-header {
