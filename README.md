@@ -94,3 +94,4 @@ Use starter code to start each section, and **final code to compare it with your
       - ex: 'artical p:first-child' does not select the first p element in the article element, but the p element that is the first child of a article element
     - it's perfect to apply to the child elements that are of the same type
 - https://www.youtube.com/watch?v=uFXweZepi1o&list=PLqivELodHt3iF_Spzdz_6LsOSPOyfDx-R
+- HTML validator: https://validator.w3.org/
