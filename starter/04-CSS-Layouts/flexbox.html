@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Flexbox</title>
     <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
       .el--1 {
         background-color: blueviolet;
       }
@@ -14,7 +19,7 @@
       }
       .el--3 {
         background-color: green;
-        height: 150px;
+        height: 250px;
       }
       .el--4 {
         background-color: goldenrod;
@@ -36,10 +41,28 @@
         /* STARTER */
         font-family: sans-serif;
         background-color: #ddd;
-        font-size: 40px;
+        font-size: 34px;
         margin: 40px;
 
         /* FLEXBOX */
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        gap: 10px;
+      }
+
+      .el {
+        /* 
+        flex-grow: control if the flex item can grow, it's also the weight of the width the item can occupy in the container
+        flex-shrink: control if the flex item can shrink, it's also the weight of the shrinkage of the item
+        flex-basis: control the size of the flex item
+        flex: shorthand for flex-grow, flex-shrink, and flex-basis
+        */
+        /* flex: <flex-grow> <flex-shrink> <flex-basis> */
+        /* flex-grow: 0;
+        flex-shrink: 2;
+        flex-basis: 100px; */
+        flex: 1;
       }
     </style>
   </head>

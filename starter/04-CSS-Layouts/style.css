@@ -199,7 +199,7 @@ nav a:link {
   display: block; */
 
   margin-right: 30px;
-  margin-top: 10px;
+  /* margin-top: 10px; */
   display: inline-block;
 }
 
@@ -269,7 +269,7 @@ nav p {
 } */
 
 /* FLOATS */
-.author {
+/* .author {
   padding: 10px;
 }
 
@@ -307,4 +307,47 @@ footer {
 
 .related img {
   display: block;
+} */
+
+/* flex */
+.flex-box {
+  display: flex;
+}
+
+.main-header {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.author-box {
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.author {
+  margin-bottom: 0;
+  margin-left: 15px;
+}
+
+.related-post {
+  align-items: center;
+  gap: 20px;
+}
+
+.related-author {
+  margin-bottom: 0;
+}
+
+.row {
+  gap: 75px;
+  align-items: flex-start;
+}
+
+article {
+  flex: 1;
+  margin-bottom: 0;
+}
+
+aside {
+  flex: 0 0 300px;
 }
